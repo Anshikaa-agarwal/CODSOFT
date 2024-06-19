@@ -1,7 +1,39 @@
 body{
     margin: 0;
     padding: 0;
-    
+    background-color: #f4f4f4;
+    color: #333333;
+}
+.section{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.sect-heading{
+    font-size: 75px;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    color: #002851;
+}
+/* TIMELINE */
+.timelinebox{
+    background-color: #ffffff; /* White background for timeline boxes */
+    border-left: 5px solid #ff4d4d; /* Bright red accent on the left */
+    margin-bottom: 20px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.timeline-date {
+    color: #ff4d4d; /* Bright red for the date */
+    font-weight: bold;
+}
+
+.timeline-heading {
+    color: #002041; /* Deep blue for timeline headings */
+    margin-top: 5px;
 }
 /* GALLERY */
 .gallery-sect{
@@ -9,13 +41,6 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-.sect-heading{
-    font-size: 70px;
-    font-family: "Playfair Display", serif;
-    font-optical-sizing: auto;
-    font-weight: 600;
-    font-style: normal;
 }
 .gallery{
     width: 70vw;
