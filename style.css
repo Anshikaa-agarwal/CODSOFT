@@ -20,19 +20,19 @@ body{
 }
 /* TIMELINE */
 .timelinebox{
-    background-color: #ffffff; /* White background for timeline boxes */
-    border-left: 5px solid #ff4d4d; /* Bright red accent on the left */
+    background-color: #ffffff; 
+    border-left: 5px solid #ff4d4d; 
     margin-bottom: 20px;
     padding: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 .timeline-date {
-    color: #ff4d4d; /* Bright red for the date */
+    color: #ff4d4d; 
     font-weight: bold;
 }
 
 .timeline-heading {
-    color: #002041; /* Deep blue for timeline headings */
+    color: #002041; 
     margin-top: 5px;
 }
 /* GALLERY */
